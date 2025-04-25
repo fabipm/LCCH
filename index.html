@@ -196,11 +196,7 @@
             const hiddenMessage = document.getElementById('hidden-message');
             const photo = document.getElementById('photo');
             
-            // Si no carga la imagen local, usa una por defecto
-            photo.onerror = function() {
-                this.src = 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60';
-            };
-            
+
             // Crear corazones flotantes
             function createHearts() {
                 const colors = ['#ff6b9a', '#ff3d77', '#ff8fab', '#ffb3c6'];
